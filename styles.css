@@ -1,6 +1,8 @@
 @font-face {
-    font-family: "square one";
-    src: url("fonts/square one.ttf") format("truetype");
+    font-family: "Square One";
+    src: url("/fonts/Square One.ttf") format("truetype");
+    font-weight: normal; 
+    font-style: normal;
 }
 
 body {
@@ -23,29 +25,35 @@ body {
     margin: 0px;
     margin-top: 10px;
     margin-bottom: 30px;
-    font-family: "square one", fantasy, sans-serif;
+    font-family: "Square One", fantasy, sans-serif;
     font-size: 72px;
     color: #111da6a1;
 }
 
 .header-links {
-    margin: 0 auto;
-    padding: 0px;
     display: flex;
     width: 600px;
+    margin: 0 auto;
+    padding: 0px;
+    border: 2px solid #111da6a1;
+    border-radius: 16px;
+    background-color: #40af40;
     justify-content: space-around;
 }
 
 .header-link {
-    border: 2px solid #111da6a1;
-    border-radius: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 16px;
     padding-right: 16px;
-
-    font-family: "square one", fantasy, sans-serif;
+    font-family: "Square One", fantasy, sans-serif;
     font-size: 24px;
     color: #111da6a1;
     background-color: #40af40;
+    text-decoration: none;
+}
+
+.header-link:hover {
+    background-color: #111da6a1;
+    color: #40af40;
 }
