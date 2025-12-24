@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "square one";
+    src: url("fonts/square one.ttf") format("truetype");
+}
+
+body {
+    margin: 0px;
+    background-color: #40b2b2;
+}
+
+.header {
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    background-color: #4491de;
+    border-bottom: #40af40 4px dashed;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "square one", fantasy, sans-serif;
+    font-size: 72px;
+    color: #111da6a1;
+}
+
+.header-links {
+    margin: 0 auto;
+    padding: 0px;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+
+.header-link {
+    border: 2px solid #111da6a1;
+    border-radius: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    font-family: "square one", fantasy, sans-serif;
+    font-size: 24px;
+    color: #111da6a1;
+    background-color: #40af40;
+}
